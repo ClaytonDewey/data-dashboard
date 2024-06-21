@@ -1,0 +1,46 @@
+@use '../util' as *;
+
+:root {
+  // Colors
+  --clr-black: #000;
+  --clr-black-60: rgba(0, 0, 0, 0.6);
+  --clr-black-16: rgba(0, 0, 0, 0.16);
+  --clr-black-4: rgba(0, 0, 0, 0.04);
+
+  --clr-white: #fff;
+  --clr-white-60: rgba(255, 255, 255, 0.6);
+  --clr-white-20: rgba(255, 255, 255, 0.2);
+  --clr-white-16: rgba(255, 255, 255, 0.16);
+  --clr-white-08: rgba(255, 255, 255, 0.08);
+
+  --clr-blue: #696ffb;
+  --clr-blue-60: rgba(105, 111, 251, 0.6);
+  --clr-blue-32: rgba(105, 111, 251, 0.32);
+  --clr-blue-20: rgba(105, 111, 251, 0.2);
+  --clr-blue-12: rgba(105, 111, 251, 0.12);
+  --clr-blue-8: rgba(105, 111, 251, 0.08);
+
+  --clr-yellow: #ffd74b;
+  --clr-orange: #ff9e2b;
+  --clr-light-red: #fdd5da;
+  --clr-dark-red: #ff5e75;
+  --clr-light-green: #b8e9d4;
+  --clr-dark-green: #2cc483;
+
+  // Font-family
+  --ff-sans: 'Roboto', Arial, Helvetica, sans-serif;
+  --ff-mono: 'Source Code Pro', monospace;
+  --ff-serif: Cambria, Cochin, Georgia, serif;
+
+  // Font-sizes
+  --fs-xlarge: #{rem(34)};
+  --fs-large: #{rem(26)};
+  --fs-small: #{rem(18)};
+  --fs-body: #{rem(14)};
+  --fs-subtext: #{rem(12)};
+  --fs-xsmall: #{rem(11)};
+
+  // Flexbox gap/columns
+  --gap: #{rem(20)};
+  --columns: 2;
+}

@@ -1,0 +1,15 @@
+@use '../util' as *;
+
+body {
+  font-weight: normal;
+  font-size: var(--fs-body);
+}
+
+/* prettier-ignore */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.022em;
+    margin: 0;
+    margin-bottom: rem(20);
+}
