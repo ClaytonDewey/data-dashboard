@@ -6,5 +6,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(<App />);
-
-// https://www.figma.com/design/92peQGnBavZCcPSHfxpLyi/big-dev-soon-dashboard?node-id=19-1076&t=veSYOLjFRlZHzs0K-0
+/* 
+https://www.figma.com/design/92peQGnBavZCcPSHfxpLyi/big-dev-soon-dashboard?node-id=19-1076&t=veSYOLjFRlZHzs0K-0
+https://www.youtube.com/watch?v=a69OMEJXaJo
+ */
