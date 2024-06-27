@@ -1,71 +1,69 @@
-import {
-  IconAnalytics,
-  IconProduct,
-  IconCustomers,
-  IconDashboard,
-  IconHelp,
-  IconInvoice,
-  IconLogout,
-  IconMessages,
-  IconPayment,
-  IconSecurity,
-  IconSettings,
-} from '../icons';
+import dashboard from './img/dashboard.svg';
+import payment from './img/payment.svg';
+import customers from './img/customers.svg';
+import messages from './img/messages.svg';
+import product from './img/product.svg';
+import invoice from './img/invoice.svg';
+import analytics from './img/analytics.svg';
+import settings from './img/settings.svg';
+import security from './img/security.svg';
+import help from './img/help.svg';
+import logout from './img/logout.svg';
 
 export const navItems = [
   {
     id: 1,
-    name: 'Dashboard',
-    icon: IconDashboard,
+    name: 'dashboard',
+    icon: dashboard,
   },
   {
     id: 2,
-    name: 'Payment',
-    icon: IconPayment,
+    name: 'payment',
+    icon: payment,
   },
   {
     id: 3,
-    name: 'Customers',
-    icon: IconCustomers,
+    name: 'customers',
+    icon: customers,
   },
   {
     id: 4,
-    name: 'Messages',
-    icon: IconMessages,
+    name: 'messages',
+    icon: messages,
   },
   {
     id: 5,
-    name: 'Product',
-    icon: IconProduct,
+    name: 'product',
+    icon: product,
   },
   {
     id: 6,
-    name: 'Invoice',
-    icon: IconInvoice,
+    name: 'invoice',
+    icon: invoice,
   },
   {
     id: 7,
-    name: 'Analytics',
-    icon: IconAnalytics,
+    name: 'analytics',
+    icon: analytics,
   },
   {
     id: 8,
-    name: 'Settings',
-    icon: IconSettings,
+    name: 'settings',
+    icon: settings,
   },
   {
     id: 9,
-    name: 'Security',
-    icon: IconSecurity,
+    name: 'security',
+    icon: security,
   },
   {
     id: 10,
-    name: 'Help',
-    icon: IconHelp,
+    name: 'help',
+    icon: help,
   },
   {
     id: 11,
-    name: 'Logout',
-    icon: IconLogout,
+    name: 'logout',
+    icon: logout,
   },
 ];

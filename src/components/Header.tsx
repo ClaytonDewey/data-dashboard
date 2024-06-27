@@ -5,7 +5,7 @@ type HeaderProps = {};
 const Header: React.FC<HeaderProps> = () => {
   return (
     <header>
-      <h1>Header</h1>
+      <h2>Dashboard</h2>
     </header>
   );
 };

@@ -8,9 +8,11 @@ export { default as IconLogout } from './logout';
 export { default as IconMessages } from './messages';
 export { default as IconOpen } from './open';
 export { default as IconPayment } from './payment';
+export { default as IconProduct } from './product';
 export { default as IconSecurity } from './security';
 export { default as IconSettings } from './settings';
 export { default as IconShopify } from './shopify';
-
+export { default as IconStripe } from './stripe';
 export { default as IconThemeDark } from './theme-icon-dark';
 export { default as IconThemeLight } from './theme-icon-light';
+export { default as IconZapier } from './zapier';
